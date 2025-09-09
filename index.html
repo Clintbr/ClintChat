@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ClintChat</title>
+    <link rel="shortcut icon" href="bilder/Clintchat-icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+<div class="app-container">
+    <!-- Seitenleiste mit Kontakten -->
+    <aside class="sidebar">
+        <header class="sidebar-header">
+            <div class="user-profile">
+                <img src="https://ui-avatars.com/api/?name=Clint+User&background=random" alt="Profil" class="profile-img">
+                <span>Mein Profil</span>
+            </div>
+            <div class="header-actions">
+                <button class="icon-btn"><i class="fas fa-status"></i></button>
+                <button class="icon-btn"><i class="fas fa-comment"></i></button>
+                <button class="icon-btn"><i class="fas fa-ellipsis-v"></i></button>
+            </div>
+        </header>
+
+        <div class="search-container">
+            <div class="search-box">
+                <i class="fas fa-search"></i>
+                <input type="text" placeholder="Suche oder starte einen neuen Chat">
+            </div>
+        </div>
+
+        <div class="contacts-list" id="contacts-list">
+            <!-- Kontakte werden dynamisch eingefügt -->
+        </div>
+    </aside>
+
+    <!-- Haupt-Chat-Bereich -->
+    <main class="chat-area">
+        <div class="welcome-screen" id="welcome-screen">
+            <div class="welcome-content">
+                <img src="bilder/Clintchat-icon.png" alt="ClintChat">
+                <h1>ClintChat</h1>
+                <p>Sende und empfange Nachrichten ohne das Internet zu verlassen.</p>
+                <small>Von Clint mit ❤️ erstellt</small>
+            </div>
+        </div>
+
+        <div class="active-chat" id="active-chat" style="display: none;">
+            <header class="chat-header">
+                <div class="contact-info">
+                    <img src="" alt="Contact" class="contact-img" id="chat-contact-img">
+                    <div>
+                        <h3 id="chat-contact-name">Kontaktname</h3>
+                        <span id="chat-contact-status">Online</span>
+                    </div>
+                </div>
+                <div class="chat-actions">
+                    <button class="icon-btn"><i class="fas fa-video"></i></button>
+                    <button class="icon-btn"><i class="fas fa-phone"></i></button>
+                    <button class="icon-btn"><i class="fas fa-ellipsis-v"></i></button>
+                </div>
+            </header>
+
+            <div class="messages-container" id="messages-container">
+                <!-- Nachrichten werden dynamisch eingefügt -->
+            </div>
+
+            <footer class="message-input-container">
+                <div class="input-actions">
+                    <button class="icon-btn"><i class="far fa-smile"></i></button>
+                    <button class="icon-btn"><i class="fas fa-paperclip"></i></button>
+                </div>
+                <input type="text" placeholder="Nachricht eingeben" id="message-input">
+                <button class="icon-btn send-btn" id="send-message-btn">
+                    <i class="fas fa-paper-plane"></i>
+                </button>
+            </footer>
+        </div>
+    </main>
+</div>
+
+<script src="js/utils.js"></script>
+<script src="js/storage.js"></script>
+<script src="js/contacts.js"></script>
+<script src="js/chat.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
