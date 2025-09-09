@@ -47,7 +47,7 @@ ClintChat/
 │   ├── contacts.js           # Kontaktverwaltung
 │   ├── storage.js            # Datenpersistenz (localStorage)
 │   └── utils.js              # Hilfsfunktionen
-├── bilder/
+├── chat-bilder/
 |   ├── Clintchat-icon.png
 └── README.md                 # Diese Datei
 ```
