@@ -1,6 +1,6 @@
 # ClintChat - Mini Chat App
 
-![ClintChat Preview](bilder/Clintchat-icon.png)
+![ClintChat Preview](chat-bilder/Clintchat-icon.png)
 
 Eine moderne, WhatsApp-inspirierte Chat-Anwendung, die mit HTML, CSS und JavaScript implementiert wurde. ClintChat bietet eine intuitive Benutzeroberfläche und eine klare Projektstruktur, die als Grundlage für die Erweiterung mit einem Java-Backend dient.
 
