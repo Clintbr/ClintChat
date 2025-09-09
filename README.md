@@ -166,7 +166,7 @@ Beiträge sind willkommen! Bitte beachten Sie folgende Schritte:
 
 Bei Fragen oder Anregungen wenden Sie sich bitte an:
 
-- E-Mail: clint@example.com
+- E-Mail: nguenaclintbryan@gmail.com
 - GitHub: [ClintChat Repository](https://github.com/Clintbr/ClintChat/)
 
 ## 🗺️ Roadmap
